@@ -66,6 +66,8 @@
                 <br>
                 <input type="text" class="input-field inputfield_calculator text-white" id="display" value="0" readonly>
                 <div class="keypad">
+                  <div class="key" ontouchstart="press('')" onclick="press('')">c</div>
+                  <div class="key" ontouchstart="press('')" onclick="press('')" style="grid-column: span 2;"><i class="fa fa-arrow-left" aria-hidden="true"></i></div>
                   <div class="key" ontouchstart="press('1')" onclick="press('1')">1</div>
                   <div class="key" ontouchstart="press('2')" onclick="press('2')">2</div>
                   <div class="key" ontouchstart="press('3')" onclick="press('3')">3</div>
@@ -156,18 +158,22 @@
               </div>
 
                <div class="col-md-3 text-center">   
-                 <input class="radio_button" type="radio" id="progress" checked name="radio_button" value="1"><br>
-                 <label class="login_text_text" for="progress">In Progress</label><br>
+
+                 
+
+                 <button type="button" class="btn btn-block job_button text-white text-center">In Progress</button><br>
+
+                 <!-- <input class="radio_button" type="radio" id="progress" checked name="radio_button" value="1"><br>
+                 <label class="login_text_text" for="progress">In Progress</label><br> -->
+
                </div>
 
                  <div class="col-md-3 text-center">   
-                 <input class="radio_button" type="radio" id="stop" name="radio_button" value="2"   ><br>
-                 <label class="login_text_text" for="stop">Stopped</label><br>
+                 <button type="button" class="btn btn-block job_button text-white text-center">Stopped</button><br>
                </div>
 
                  <div class="col-md-3 text-center">   
-                 <input class="radio_button" type="radio" id="complete" name="radio_button" value="3"><br>
-                 <label class="login_text_text" for="complete">Complete</label>  
+                 <button type="button" class="btn btn-block job_button text-white text-center">Complete</button><br>  
                </div>
 
 
