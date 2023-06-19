@@ -208,7 +208,7 @@
 
 
  
-          <div class="box box-solid">
+          <div id="checkclick"  class="box box-solid" style="display:none;">
 
             <div class="box-header"> 
 
@@ -221,7 +221,7 @@
 
  
             <!-- /.box-header -->
-            <div id="myBody" class="box-body" style="padding-bottom:3rem; display:none;">
+            <div id="myBody" class="box-body" style=" padding-bottom:3rem; ">
               <div class="row">  
                 <div class="col-md-10"> 
                 <h3 class="box-title text-white"><i class="fa fa-fw fa-play text-success "></i>  Filling . Primary . 10</h3>
@@ -449,9 +449,9 @@
 
     $('#checkid').change(function(){
     if($(this).is(":checked"))
-    $('#myBody').fadeIn('slow');
+    $('#checkclick').fadeIn('slow');
     else
-    $('#myBody').fadeOut('slow');
+    $('#checkclick').fadeOut('slow');
 
     });
     }); 
