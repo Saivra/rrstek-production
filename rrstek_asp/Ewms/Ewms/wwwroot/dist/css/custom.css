@@ -34,8 +34,8 @@
   padding: 1.5rem; 
 } 
 .mybutton:hover{
-	background-color: #bce2fd;
-	border: 3px solid #66bcf9;
+  background-color: #bce2fd;
+  border: 3px solid #66bcf9;
 }
 
 .bottom_display{
@@ -45,7 +45,7 @@
   z-index: 100;
 }
 .padding-bottom{
-	padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
  .inputfield{ 
   border: 2px solid #2667a2;
@@ -119,20 +119,27 @@
     border: 2px solid #2667a2
 }
 
+.icon_fix{
+  height: 20px;
+  width: 20px;
+}
+
 
 /* media query for responsiveness*/
 @media only screen and (max-width: 768px) {
    .login_colom{ 
-  	text-align: center;
-	}
+    text-align: center;
+  }
 
-	.bottom_display{
-	 position: unset;  
-	 right: 50%;
-	 z-index: 100;
-	}
+  .bottom_display{
+   position: unset;  
+   right: 50%;
+   z-index: 100;
+  }
 
 }
+
+
 
 
 

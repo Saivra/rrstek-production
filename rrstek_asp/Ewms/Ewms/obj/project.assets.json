@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/apple/Projects/Ewms/Ewms/Ewms.csproj",
+      "projectUniqueName": "/Users/apple/Documents/GitHub/rrstek-production/rrstek_asp/Ewms/Ewms/Ewms.csproj",
       "projectName": "Ewms",
-      "projectPath": "/Users/apple/Projects/Ewms/Ewms/Ewms.csproj",
+      "projectPath": "/Users/apple/Documents/GitHub/rrstek-production/rrstek_asp/Ewms/Ewms/Ewms.csproj",
       "packagesPath": "/Users/apple/.nuget/packages/",
-      "outputPath": "/Users/apple/Projects/Ewms/Ewms/obj/",
+      "outputPath": "/Users/apple/Documents/GitHub/rrstek-production/rrstek_asp/Ewms/Ewms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/apple/.nuget/NuGet/NuGet.Config"
