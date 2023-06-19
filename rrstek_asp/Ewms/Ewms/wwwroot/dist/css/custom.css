@@ -162,13 +162,15 @@
    position: unset;  
    right: 50%;
    z-index: 100;
-  }
+  } 
 
   .mobile{
     text-align: center;
   }
 
 }
+
+ 
 
 
 
