@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>RRSTEK Production</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+  <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+  <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="dist/css/custom.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Google Font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+<!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+<body class="hold-transition skin-blue layout-top-nav" style="background-image: linear-gradient(#2b3451, #10141b);">
+<div class="wrapper">
+
+   <div class="row">
+
+          <div class="col-md-2"></div>
+
+           <div class="col-md-8">
+
+            <header class="main-header paddingtop">
+              <nav class="navbar navbar-static-top">
+
+                  <div class="collapse navbar-collapse pull-left" id="navbar-collapse" style="margin-top: 3rem;">
+                    <ul class="nav navbar-nav">
+                      <li class="active">
+                        <a href="alljobs.html">All Jobs <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li><a href="activejobs.html">Active Jobs</a></li>
+                      <li><a href="machines.html">Machine <span class="sr-only">(current)</span></a></li>
+
+                    </ul>
+
+                  </div>
+                  <!-- /.navbar-collapse -->
+                  <!-- Navbar Right Menu -->
+                  <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+                      <li class="dropdown user-menu" style="padding-right:1rem;">  
+                        <i class="fa fa-user text-white" style="font-size: 6rem;"></i> 
+                      </li>
+
+                      <li class="dropdown user-menu text-right">  
+                       <span class="text-white">Wednesday 9/  23/2023</span><br>
+                       <span class="text-white" style="font-size:3rem">8:40 PM</span>
+
+                     </li>
+
+
+                   </ul>
+                 </div>                
+
+              </nav>
+            </header>
+
+
+        </div>
+
+         <div class="col-md-2"></div>
+
+      </div>
+   
+    
+
+      <div class="row paddingtop" >
+
+        <!-- left slider -->
+        <div class="col-md-2">
+          
+          <div class="box-header">
+          <div class="box-body ">
+            
+
+              <div class="text-center padding-bottom" > 
+               <a  href="#" class="mybutton" >
+                 <i class="fa fa-coffee" aria-hidden="true"  ></i>
+               </a><br>
+               <h4  class="login_text_text">Break</h4> 
+               </div>
+
+               <div class="text-center padding-bottom" > 
+               <a  href="#" class="mybutton">
+                 <i class="fa fa-tasks" aria-hidden="true" ></i>
+               </a><br>
+               <h4  class="login_text_text">Activity</h4>
+               </div>
+
+
+               <div class="text-center padding-bottom" > 
+               <a  href="#" class="mybutton" >
+                 <i class="fa fa-filter" aria-hidden="true"  ></i>
+               </a><br>
+               <h4  class="login_text_text text-center">Filter</h4>
+               </div>
+
+
+               <div class="text-center padding-bottom" > 
+               <a  href="login.html" class="mybutton" target="_blank">
+                 <i class="fa fa-sign-out" aria-hidden="true"  ></i>
+               </a><br>
+               <h4  class="login_text_text">Leave</h4>
+               </div>
+             
+             </div>
+            </div> 
+        </div>
+
+        <!-- content -->
+        <div class="col-md-8" style=" border-radius: 1rem; background-color: #2e3958;">
+
+
+          <div class="row"> 
+           <div class="col-xs-12 col-md-10 paddingtop">
+            <div class="box-tools">
+              <div class="input-group input-group-sm"  >
+                <input type="text" name="table_search" class="form-control pull-right inputfield" placeholder="Search" >
+
+                <div class="input-group-btn">
+                  <button type="submit" class="btn btn-default searchicon" ><i class="fa fa-search " style="font-size: 1.5rem;"></i></button>
+                </div>
+ 
+              </div>
+            </div>
+          </div>
+
+           <div class="col-xs-12 col-md-2 paddingtop">
+            <div class="box-tools">
+              <div class="input-group input-group-sm"  >
+      
+ 
+                <div class="input-group-btn">
+                  <button type="submit" class="btn btn-default settingicon"><i class="fa fa-cog  " style="font-size: 3rem;"></i></button>
+                </div>
+
+                
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="row"> 
+
+           <div class="col-xs-12 col-md-6 paddingtop">
+              <div class="col-xs-12 col-md-6">
+                <div class="Machine_box text-white">
+                  <h4>Hours</h4> 
+                  <h1 class="machanic_box_detail">150.00 hr</h1> 
+                  <h4 class="machanic_box_detail"> Actual </h4> 
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-6">
+                  <div class="Machine_box text-white">
+                  <h4>Celsius</h4> 
+                  <h1 class="machanic_box_detail">150.37 C</h1> 
+                  <h4 class="machanic_box_detail"> Aggregated </h4> 
+                </div>
+              </div>
+              
+
+          </div>
+
+           <div class="col-xs-12 col-md-6 paddingtop">
+              <div class="col-xs-12 col-md-6">
+                <div class="Machine_box text-white">
+                  <h4>Presure</h4> 
+                  <h1 class="machanic_box_detail">150.37 br</h1> 
+                  <h4 class="machanic_box_detail"> Aggregated </h4> 
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-6">
+                  <div class="Machine_box text-white">
+                  <h4>Kilohertz</h4> 
+                  <h1 class="machanic_box_detail">150 kHz</h1> 
+                  <h4 class="machanic_box_detail"> Aggregated </h4> 
+                </div>
+              </div>
+              
+
+          </div>
+
+
+        </div>
+           
+            <div class="row paddingtop padding-bottom">
+                
+              <div class="col-xs-12 col-md-6">
+                <div class="box machine_table"  >
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example2" class="table table-bordered table-hover">
+                <thead>
+                <tr class="text-white text-center">
+                  <th > <i class="fa fa-check"></i></th>
+                  <th>Maintenance request</th>
+                  <th>Actual Start</th>
+                  <th>Description</th> 
+                </tr>
+                </thead>
+                <tbody class="login_text_text">
+                <tr >
+                  <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td> 
+                </tr>
+
+                <tr>
+                  <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td>
+                </tr>
+
+                <tr>
+                   <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td> 
+                </tr> 
+                
+
+                </tbody>
+                 
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+              </div>
+
+               <div class="col-xs-12 col-md-6 ">
+                  <div class="box machine_table">
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example2" class="table table-bordered table-hover">
+                <thead>
+                <tr class="text-white text-center">
+                  <th > <i class="fa fa-check"></i></th>
+                  <th>Maintenance request</th>
+                  <th>Actual Start</th>
+                  <th>Description</th> 
+                </tr>
+                </thead>
+                <tbody class="login_text_text">
+                <tr >
+                  <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td> 
+                </tr>
+
+                <tr>
+                  <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td>
+                </tr>
+
+                <tr>
+                   <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td> 
+                  <td>AMMR0002</td>
+                  <td>11-7-2014 8:30 PM</td> 
+                  <td>Presure</td> 
+                </tr> 
+                
+
+                </tbody>
+                 
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+
+            <div class="col-md-6">
+            <button type="button" class="btn btn-block btn-default btn-lg machine_button text-white">View or Edit</button>
+          </div>
+              </div>
+
+
+
+
+
+            </div> 
+
+
+
+ 
+
+            
+        </div>
+
+        <!-- right slider -->
+        <div class="col-md-2" style=" ">
+
+          <div class="box-header" >
+          <div class="box-body ">
+             
+              <div class="text-center padding-bottom" > 
+               <a  href="activejobs.html" class="mybutton" >
+                 <i class="fa fa-play" aria-hidden="true"  ></i>
+               </a><br>
+               <h4  class="login_text_text">Register Downtime</h4> 
+               </div>
+
+               <div class="text-center padding-bottom" > 
+               <a  href="request.html" class="mybutton">
+                 <i class="fa fa-clone" aria-hidden="true"  ></i>
+               </a><br>
+               <h4  class="login_text_text">Request Maintenance</h4>
+               </div>
+ 
+            </div>
+          </div>
+        </div>
+ 
+        
+      </div>
+
+      
+   
+ 
+
+<!-- jQuery 3 -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap 3.3.7 -->
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- SlimScroll -->
+<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<!-- FastClick -->
+<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+
+<script src="bower_components/jquery-knob/js/jquery.knob.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+
+<script>
+  $(function () {
+    $('#example1').DataTable()
+    $('#example2').DataTable({
+      'paging'      : true,
+      'lengthChange': false,
+      'searching'   : false,
+      'ordering'    : true,
+      'info'        : true,
+      'autoWidth'   : false
+    })
+  })
+
+
+</script>
+
+<script>
+  $(function () {
+    /* jQueryKnob */
+
+    $(".knob").knob({
+      /*change : function (value) {
+       //console.log("change : " + value);
+       },
+       release : function (value) {
+       console.log("release : " + value);
+       },
+       cancel : function () {
+       console.log("cancel : " + this.value);
+       },*/
+      draw: function () {
+
+        // "tron" case
+        if (this.$.data('skin') == 'tron') {
+
+          var a = this.angle(this.cv)  // Angle
+              , sa = this.startAngle          // Previous start angle
+              , sat = this.startAngle         // Start angle
+              , ea                            // Previous end angle
+              , eat = sat + a                 // End angle
+              , r = true;
+
+          this.g.lineWidth = this.lineWidth;
+
+          this.o.cursor
+          && (sat = eat - 0.3)
+          && (eat = eat + 0.3);
+
+          if (this.o.displayPrevious) {
+            ea = this.startAngle + this.angle(this.value);
+            this.o.cursor
+            && (sa = ea - 0.3)
+            && (ea = ea + 0.3);
+            this.g.beginPath();
+            this.g.strokeStyle = this.previousColor;
+            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sa, ea, false);
+            this.g.stroke();
+          }
+
+          this.g.beginPath();
+          this.g.strokeStyle = r ? this.o.fgColor : this.fgColor;
+          this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sat, eat, false);
+          this.g.stroke();
+
+          this.g.lineWidth = 2;
+          this.g.beginPath();
+          this.g.strokeStyle = this.o.fgColor;
+          this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+          this.g.stroke();
+
+          return false;
+        }
+      }
+    });
+    /* END JQUERY KNOB */
+
+    //INITIALIZE SPARKLINE CHARTS
+    $(".sparkline").each(function () {
+      var $this = $(this);
+      $this.sparkline('html', $this.data());
+    });
+
+    /* SPARKLINE DOCUMENTATION EXAMPLES http://omnipotent.net/jquery.sparkline/#s-about */
+    drawDocSparklines();
+    drawMouseSpeedDemo();
+
+  }); 
+
+   $(".dial").knob({
+ 'change': function (v) { console.log(v); },
+  draw: function () {
+  $(this.i).val(this.cv + '%');
+  }
+ });
+</script> 
+</body>
+</html>
