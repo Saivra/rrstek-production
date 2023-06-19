@@ -1,0 +1,317 @@
+﻿@{
+    ViewData["Title"] = "Machine";
+}
+
+
+
+<div class="row">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8">
+
+        <header class="main-header paddingtop">
+            <nav class="navbar navbar-static-top">
+
+                <div class="collapse navbar-collapse pull-left" id="navbar-collapse" style="margin-top: 3rem;">
+                    <ul class="nav navbar-nav">
+                        <li >
+                            <a asp-area="" asp-controller="Home" asp-action="Alljobs">All Jobs <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Activejobs">Active Jobs</a></li>
+                        <li class="active"><a  asp-area="" asp-controller="Home" asp-action="Machine">Machine <span class="sr-only">(current)</span></a></li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown user-menu" style="padding-right:1rem;">
+                            <i class="fa fa-user text-white" style="font-size: 6rem;"></i>
+                        </li>
+
+                        <li class="dropdown user-menu text-right">
+                            <span class="text-white">Wednesday 9/  23/2023</span><br>
+                            <span class="text-white" style="font-size:3rem">8:40 PM</span>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+
+    </div>
+
+    <div class="col-md-2"></div>
+
+</div>
+
+
+
+<div class="row paddingtop">
+
+    <!-- left slider -->
+    <div class="col-md-2">
+
+        <div class="box-header">
+            <div class="box-body ">
+
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-coffee" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Break</h4>
+                </div>
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Activity</h4>
+                </div>
+
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-filter" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text text-center">Filter</h4>
+                </div>
+
+
+                <div class="text-center padding-bottom">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="mybutton" target="_blank">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Leave</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="col-md-8" style=" border-radius: 1rem; background-color: #2e3958;">
+
+
+        <div class="row">
+            <div class="col-xs-12 col-md-10 paddingtop">
+                <div class="box-tools">
+                    <div class="input-group input-group-sm">
+                        <input type="text" name="table_search" class="form-control pull-right inputfield" placeholder="Search">
+
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-default searchicon"><i class="fa fa-search " style="font-size: 1.5rem;"></i></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-2 paddingtop">
+                <div class="box-tools">
+                    <div class="input-group input-group-sm">
+
+
+                        <div class="input-group-btn">
+                            <button type="submit" class="btn btn-default settingicon"><i class="fa fa-cog  " style="font-size: 3rem;"></i></button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-xs-12 col-md-6 paddingtop">
+                <div class="col-xs-12 col-md-6">
+                    <div class="Machine_box text-white">
+                        <h4>Hours</h4>
+                        <h1 class="machanic_box_detail">150.00 hr</h1>
+                        <h4 class="machanic_box_detail"> Actual </h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="Machine_box text-white">
+                        <h4>Celsius</h4>
+                        <h1 class="machanic_box_detail">150.37 C</h1>
+                        <h4 class="machanic_box_detail"> Aggregated </h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 paddingtop">
+                <div class="col-xs-12 col-md-6">
+                    <div class="Machine_box text-white">
+                        <h4>Presure</h4>
+                        <h1 class="machanic_box_detail">150.37 br</h1>
+                        <h4 class="machanic_box_detail"> Aggregated </h4>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <div class="Machine_box text-white">
+                        <h4>Kilohertz</h4>
+                        <h1 class="machanic_box_detail">150 kHz</h1>
+                        <h4 class="machanic_box_detail"> Aggregated </h4>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="row paddingtop padding-bottom">
+
+            <div class="col-xs-12 col-md-6">
+                <div class="box machine_table">
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr class="text-white text-center">
+                                    <th> <i class="fa fa-check"></i></th>
+                                    <th>Maintenance request</th>
+                                    <th>Actual Start</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="login_text_text">
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+
+            </div>
+
+            <div class="col-xs-12 col-md-6 ">
+                <div class="box machine_table">
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr class="text-white text-center">
+                                    <th> <i class="fa fa-check"></i></th>
+                                    <th>Maintenance request</th>
+                                    <th>Actual Start</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody class="login_text_text">
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="text-center"><input type="checkbox" id="checkid" name="checkid" value=""></td>
+                                    <td>AMMR0002</td>
+                                    <td>11-7-2014 8:30 PM</td>
+                                    <td>Presure</td>
+                                </tr>
+
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+
+                <div class="col-md-6">
+                    <button type="button" class="btn btn-block btn-default btn-lg machine_button text-white">View or Edit</button>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <!-- right slider -->
+    <div class="col-md-2" style=" ">
+
+        <div class="box-header">
+            <div class="box-body ">
+
+                <div class="text-center padding-bottom">
+                    <a asp-area="" asp-controller="Home" asp-action="Activejobs" class="mybutton">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Register Downtime</h4>
+                </div>
+
+                <div class="text-center padding-bottom">
+                    <a asp-area="" asp-controller="Home" asp-action="Requests" class="mybutton">
+                        <i class="fa fa-clone" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Request Maintenance</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</div>

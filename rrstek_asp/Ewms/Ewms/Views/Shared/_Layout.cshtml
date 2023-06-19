@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RRSTEK Production</title> 
+
+     
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="~/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="~/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="~/bower_components/Ionicons/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/dist/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="~/dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="~/dist/css/custom.css">
+
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+</head>
+@*<body class="hold-transition login-page">*@
+<body class="hold-transition skin-blue layout-top-nav" style="background-image: linear-gradient(#2b3451, #10141b);">
+
+
+    @RenderBody()
+
+
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2023 - Ewms - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+
+
+
+
+    <!-- jQuery 3 -->
+    <script src="~/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="~/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="~/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/bower_components/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="~/dist/js/adminlte.min.js"></script>
+
+
+
+    <script src="~/bower_components/jquery-knob/js/jquery.knob.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="~/dist/js/demo.js"></script>
+
+    <script>$(function () {
+            $('#example1').DataTable()
+            $('#example2').DataTable({
+                'paging': true,
+                'lengthChange': false,
+                'searching': false,
+                'ordering': true,
+                'info': true,
+                'autoWidth': false
+            })
+        })</script>
+
+    <script>$(function () {
+
+
+
+
+
+            /* jQueryKnob */
+
+            $(".knob").knob({
+                /*change : function (value) {
+                 //console.log("change : " + value);
+                 },
+                 release : function (value) {
+                 console.log("release : " + value);
+                 },
+                 cancel : function () {
+                 console.log("cancel : " + this.value);
+                 },*/
+                draw: function () {
+
+                    // "tron" case
+                    if (this.$.data('skin') == 'tron') {
+
+                        var a = this.angle(this.cv)  // Angle
+                            , sa = this.startAngle          // Previous start angle
+                            , sat = this.startAngle         // Start angle
+                            , ea                            // Previous end angle
+                            , eat = sat + a                 // End angle
+                            , r = true;
+
+                        this.g.lineWidth = this.lineWidth;
+
+                        this.o.cursor
+                            && (sat = eat - 0.3)
+                            && (eat = eat + 0.3);
+
+                        if (this.o.displayPrevious) {
+                            ea = this.startAngle + this.angle(this.value);
+                            this.o.cursor
+                                && (sa = ea - 0.3)
+                                && (ea = ea + 0.3);
+                            this.g.beginPath();
+                            this.g.strokeStyle = this.previousColor;
+                            this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sa, ea, false);
+                            this.g.stroke();
+                        }
+
+                        this.g.beginPath();
+                        this.g.strokeStyle = r ? this.o.fgColor : this.fgColor;
+                        this.g.arc(this.xy, this.xy, this.radius - this.lineWidth, sat, eat, false);
+                        this.g.stroke();
+
+                        this.g.lineWidth = 2;
+                        this.g.beginPath();
+                        this.g.strokeStyle = this.o.fgColor;
+                        this.g.arc(this.xy, this.xy, this.radius - this.lineWidth + 1 + this.lineWidth * 2 / 3, 0, 2 * Math.PI, false);
+                        this.g.stroke();
+
+                        return false;
+                    }
+                }
+            });
+            /* END JQUERY KNOB */
+
+            //INITIALIZE SPARKLINE CHARTS
+            $(".sparkline").each(function () {
+                var $this = $(this);
+                $this.sparkline('html', $this.data());
+            });
+
+            /* SPARKLINE DOCUMENTATION EXAMPLES http://omnipotent.net/jquery.sparkline/#s-about */
+            drawDocSparklines();
+            drawMouseSpeedDemo();
+
+        });
+
+        $(".dial").knob({
+            'change': function (v) { console.log(v); },
+            draw: function () {
+                $(this.i).val(this.cv + '%');
+            }
+        });</script>
+    <script type="text/javascript">$(document).ready(function () {
+
+            // $('#myBody').fadeOut('slow');
+
+            $('#checkid').change(function () {
+                if ($(this).is(":checked"))
+                    $('#myBody').fadeIn('slow');
+                else
+                    $('#myBody').fadeOut('slow');
+
+            });
+        });</script>
+
+    <script>function press(number) {
+            var display = document.getElementById('display');
+            display.value = number;
+        }</script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

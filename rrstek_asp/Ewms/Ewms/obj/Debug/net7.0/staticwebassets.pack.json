@@ -1,0 +1,893 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/obj/Debug/net7.0/scopedcss/projectbundle/Ewms.bundle.scp.css",
+      "PackagePath": "staticwebassets/Ewms.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/.DS_Store",
+      "PackagePath": "staticwebassets/dist/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/css/.DS_Store",
+      "PackagePath": "staticwebassets/dist/css/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/css/AdminLTE.min.css",
+      "PackagePath": "staticwebassets/dist/css/AdminLTE.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/css/custom.css",
+      "PackagePath": "staticwebassets/dist/css/custom.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/css/skins/.DS_Store",
+      "PackagePath": "staticwebassets/dist/css/skins/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/css/skins/_all-skins.min.css",
+      "PackagePath": "staticwebassets/dist/css/skins/_all-skins.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/img/.DS_Store",
+      "PackagePath": "staticwebassets/dist/img/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/img/bottle.png",
+      "PackagePath": "staticwebassets/dist/img/bottle.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/js/.DS_Store",
+      "PackagePath": "staticwebassets/dist/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/js/adminlte.min.js",
+      "PackagePath": "staticwebassets/dist/js/adminlte.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/dist/js/demo.js",
+      "PackagePath": "staticwebassets/dist/js/demo.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/.DS_Store",
+      "PackagePath": "staticwebassets/plugins/.DS_Store"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-slider/bootstrap-slider.js",
+      "PackagePath": "staticwebassets/plugins/bootstrap-slider/bootstrap-slider.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-slider/slider.css",
+      "PackagePath": "staticwebassets/plugins/bootstrap-slider/slider.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js",
+      "PackagePath": "staticwebassets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js",
+      "PackagePath": "staticwebassets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css",
+      "PackagePath": "staticwebassets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css",
+      "PackagePath": "staticwebassets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/all.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/all.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/_all.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/_all.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/aero.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/aero.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/aero.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/aero.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/aero@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/aero@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/blue.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/blue.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/blue.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/blue.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/blue@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/blue@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/flat.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/flat.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/flat.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/flat.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/flat@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/flat@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/green.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/green.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/green.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/green.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/green@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/green@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/grey.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/grey.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/grey.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/grey.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/grey@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/grey@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/orange.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/orange.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/orange.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/orange.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/orange@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/orange@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/pink.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/pink.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/pink.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/pink.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/pink@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/pink@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/purple.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/purple.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/purple.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/purple.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/purple@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/purple@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/red.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/red.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/red.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/red.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/red@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/red@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/yellow.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/yellow.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/yellow.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/yellow.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/flat/yellow@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/flat/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/futurico/futurico.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/futurico/futurico.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/futurico/futurico.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/futurico/futurico.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/futurico/futurico@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/futurico/futurico@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/icheck.js",
+      "PackagePath": "staticwebassets/plugins/iCheck/icheck.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/icheck.min.js",
+      "PackagePath": "staticwebassets/plugins/iCheck/icheck.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/_all.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/_all.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/aero.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/aero.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/blue.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/blue.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/green.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/green.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/grey.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/grey.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/line.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/line.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/line.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/line.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/line@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/line@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/orange.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/orange.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/pink.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/pink.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/purple.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/purple.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/red.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/red.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/line/yellow.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/line/yellow.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/_all.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/_all.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/aero.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/aero.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/aero.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/aero.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/aero@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/aero@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/blue.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/blue.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/blue.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/blue.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/blue@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/blue@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/green.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/green.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/green.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/green.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/green@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/green@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/grey.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/grey.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/grey.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/grey.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/grey@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/grey@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/minimal.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/minimal.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/minimal.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/minimal.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/minimal@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/minimal@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/orange.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/orange.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/orange.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/orange.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/orange@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/orange@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/pink.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/pink.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/pink.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/pink.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/pink@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/pink@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/purple.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/purple.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/purple.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/purple.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/purple@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/purple@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/red.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/red.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/red.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/red.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/red@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/red@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/yellow.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/yellow.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/yellow.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/yellow.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/minimal/yellow@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/minimal/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/polaris/polaris.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/polaris/polaris.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/polaris/polaris.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/polaris/polaris.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/polaris/polaris@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/polaris/polaris@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/_all.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/_all.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/aero.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/aero.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/aero.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/aero.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/aero@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/aero@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/blue.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/blue.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/blue.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/blue.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/blue@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/blue@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/green.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/green.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/green.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/green.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/green@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/green@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/grey.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/grey.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/grey.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/grey.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/grey@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/grey@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/orange.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/orange.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/orange.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/orange.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/orange@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/orange@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/pink.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/pink.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/pink.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/pink.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/pink@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/pink@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/purple.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/purple.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/purple.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/purple.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/purple@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/purple@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/red.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/red.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/red.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/red.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/red@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/red@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/square.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/square.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/square.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/square.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/square@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/square@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/yellow.css",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/yellow.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/yellow.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/yellow.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/iCheck/square/yellow@2x.png",
+      "PackagePath": "staticwebassets/plugins/iCheck/square/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.date.extensions.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.date.extensions.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.extensions.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.extensions.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.numeric.extensions.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.numeric.extensions.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.phone.extensions.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.phone.extensions.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/jquery.inputmask.regex.extensions.js",
+      "PackagePath": "staticwebassets/plugins/input-mask/jquery.inputmask.regex.extensions.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/phone-codes/phone-be.json",
+      "PackagePath": "staticwebassets/plugins/input-mask/phone-codes/phone-be.json"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/phone-codes/phone-codes.json",
+      "PackagePath": "staticwebassets/plugins/input-mask/phone-codes/phone-codes.json"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/input-mask/phone-codes/readme.txt",
+      "PackagePath": "staticwebassets/plugins/input-mask/phone-codes/readme.txt"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jQueryUI/jquery-ui.js",
+      "PackagePath": "staticwebassets/plugins/jQueryUI/jquery-ui.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jQueryUI/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/plugins/jQueryUI/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jvectormap/jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets/plugins/jvectormap/jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jvectormap/jquery-jvectormap-usa-en.js",
+      "PackagePath": "staticwebassets/plugins/jvectormap/jquery-jvectormap-usa-en.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/pace/pace.css",
+      "PackagePath": "staticwebassets/plugins/pace/pace.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/pace/pace.js",
+      "PackagePath": "staticwebassets/plugins/pace/pace.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/pace/pace.min.css",
+      "PackagePath": "staticwebassets/plugins/pace/pace.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/pace/pace.min.js",
+      "PackagePath": "staticwebassets/plugins/pace/pace.min.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/timepicker/bootstrap-timepicker.css",
+      "PackagePath": "staticwebassets/plugins/timepicker/bootstrap-timepicker.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/timepicker/bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets/plugins/timepicker/bootstrap-timepicker.js"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/timepicker/bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets/plugins/timepicker/bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "/Users/apple/Projects/Ewms/Ewms/wwwroot/plugins/timepicker/bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets/plugins/timepicker/bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Ewms.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Ewms.props",
+      "PackagePath": "build\\Ewms.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Ewms.props",
+      "PackagePath": "buildMultiTargeting\\Ewms.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Ewms.props",
+      "PackagePath": "buildTransitive\\Ewms.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

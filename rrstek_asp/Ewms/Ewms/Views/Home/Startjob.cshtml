@@ -1,0 +1,329 @@
+﻿@{
+    ViewData["Title"] = "StartJob";
+}
+
+<div class="row">
+
+    <div class="col-md-2"></div>
+
+    <div class="col-md-8">
+
+        <header class="main-header paddingtop">
+            <nav class="navbar navbar-static-top">
+
+                <div class="collapse navbar-collapse pull-left" id="navbar-collapse" style="margin-top: 3rem;">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a asp-area="" asp-controller="Home" asp-action="Alljobs">All Jobs <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Activejobs">Active Jobs</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Machine">Machine <span class="sr-only">(current)</span></a></li>
+
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown user-menu" style="padding-right:1rem;">
+                            <i class="fa fa-user text-white" style="font-size: 6rem;"></i>
+                        </li>
+
+                        <li class="dropdown user-menu text-right">
+                            <span class="text-white">Wednesday 9/  23/2023</span><br>
+                            <span class="text-white" style="font-size:3rem">8:40 PM</span>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+
+    </div>
+
+    <div class="col-md-2"></div>
+
+</div>
+
+
+
+<div class="row" style="padding-top:1rem;">
+
+    <!-- left slider -->
+    <div class="col-md-2">
+
+        <div class="box-header">
+            <div class="box-body ">
+
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-coffee" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Break</h4>
+                </div>
+
+                <div class="text-center padding-bottom">
+                    <a  class="mybutton">
+                        <i class="fa fa-tasks" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Activity</h4>
+                </div>
+
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-filter" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text text-center">Filter</h4>
+                </div>
+
+
+                <div class="text-center padding-bottom">
+                    <a asp-area="" asp-controller="Home" asp-action="Index" class="mybutton">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Leave</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="col-md-8" style=" border-radius: 1rem; background-color: #2e3958;">
+
+        <div class="box">
+
+            <!-- /.box-header -->
+            <div class="box-body">
+                <table id="example2" class="table table-bordered table-hover">
+                    <thead>
+                        <tr class="text-white text-center">
+                            <th> </th>
+                            <th>Order</th>
+                            <th>Description</th>
+                            <th>Requested</th>
+                            <th>Remaining</th>
+                            <th>Quantity</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class="login_text_text">
+
+
+                        <tr>
+                            <td class="text-center text-success"><i class="fa fa-fw fa-play"></i></td>
+                            <td>B03294</td>
+                            <td>Speaker assemble</td>
+                            <td>4.00</td>
+                            <td>5.00</td>
+                            <td><input type="text" style="background: transparent;border: none;" value="14.00" autofocus></td>
+                            <td class="text-center"><i class="fa fa-pencil"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center text-success"><i class="fa fa-fw fa-play"></i></td>
+                            <td>B03294</td>
+                            <td>Speaker assemble</td>
+                            <td>4.00</td>
+                            <td>5.00</td>
+                            <td contenteditable='true'>2.00</td>
+                            <td class="text-center"><i class="fa fa-pencil"></i></td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="text-center text-danger"><i class="fa fa-fw fa-pause"></i></td>
+                            <td>B03294</td>
+                            <td>Speaker assemble</td>
+                            <td>4.00</td>
+                            <td>5.00</td>
+                            <td>2.00</td>
+                            <td class="text-center"><i class="fa fa-pencil"></i></td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="text-center text-danger"><i class="fa fa-fw fa-pause"></i></td>
+                            <td>B03294</td>
+                            <td>Speaker assemble</td>
+                            <td>4.00</td>
+                            <td>5.00</td>
+                            <td>2.00</td>
+                            <td class="text-center"><i class="fa fa-pencil"></i></td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-center text-success"><i class="fa fa-fw fa-play"></i></td>
+                            <td>B03294</td>
+                            <td>Speaker assemble</td>
+                            <td>4.00</td>
+                            <td>5.00</td>
+                            <td>2.00</td>
+                            <td class="text-center"><i class="fa fa-pencil"></i></td>
+                        </tr>
+
+
+                    </tbody>
+
+                </table>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+
+
+
+
+
+        <div class="box box-solid">
+
+            <div class="box-header">
+
+                <div class="box-tools pull-right ">
+                    <button type="button" class="btn btn-default btn-sm " data-widget="collapse">
+                        <i class="fa fa-angle-down login_text" style="font-size:4rem;"></i>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- /.box-header -->
+            <div id="myBody" class="box-body" style="padding-bottom:3rem; display:none;">
+
+
+                <div class="row">
+
+                    <div class="col-md-3">
+
+                        <div class="col-md-12 ">
+
+                            <!-- <p>Job Type</p> -->
+                            <span class="login_text_text">Started</span><br>
+                            <span class="login_text">0.00</span>
+                            <br><br>
+
+                            <span class="login_text_text">Scrapped</span><br>
+                            <span class="login_text">0.00</span>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+
+                        <div class="col-md-12 ">
+
+                            <span class="login_text_text">Complete</span><br>
+                            <span class="login_text">4/06/2023</span>
+                            <br><br>
+
+                            <span class="login_text_text">Previous operation</span><br>
+                            <span class="login_text">None</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-md-3">
+
+                        <div class="col-md-12 ">
+
+                            <span class="login_text_text">Product</span><br>
+                            <span class="login_text">090400 Orange Juice 140ml</span>
+                            <br><br>
+
+                            <span class="login_text_text">Job type</span><br>
+                            <span class="login_text">Process</span>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3">
+
+                        <div class="col-md-12 ">
+
+                            <span class="login_text_text">From</span><br>
+                            <span class="login_text">4/06/2023</span>
+                            <br><br>
+
+                            <span class="login_text_text">To</span><br>
+                            <span class="login_text">14/08/2023</span>
+                        </div>
+                    </div>
+
+                </div><br>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <div class="col-md-6">
+                            <input type="text" class="knob dial" data-thickness="0.2" value="26" data-width="80" data-height="80" data-fgColor="#bce2fd" data-bgColor="black" data-readonly="true">
+                        </div>
+
+
+                        <div class="col-md-3 text-center">
+
+                            <a asp-area="" asp-controller="Home" asp-action="Activejobs" class="mybutton">
+                                <i class="fa fa-play" aria-hidden="true"></i>
+                            </a><br>
+                            <h4 class="login_text_text">Start</h4>
+
+                        </div>
+
+                        <div class="col-md-3 text-center">
+                            <a asp-area="" asp-controller="Home" asp-action="Alljobs" class="mybutton">
+                                <i class="fa fa-close" aria-hidden="true"></i>
+                            </a><br>
+                            <h4 class="login_text_text">Cancel</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- right slider -->
+    <div class="col-md-2" style=" ">
+
+        <div class="box-header">
+            <div class="box-body ">
+
+                <div class="text-center padding-bottom">
+                    <a asp-area="" asp-controller="Home" asp-action="Startjob" class="mybutton">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Start Job</h4>
+                </div>
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa fa-clone" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text">Bundle</h4>
+                </div>
+
+
+                <div class="text-center padding-bottom">
+                    <a   class="mybutton">
+                        <i class="fa  fa-file-text-o" aria-hidden="true"></i>
+                    </a><br>
+                    <h4 class="login_text_text text-center">Instructions</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>

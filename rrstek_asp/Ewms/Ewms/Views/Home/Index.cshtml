@@ -1,0 +1,79 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+ 
+
+<!-- Main content -->
+<section class="content">
+
+    <div class="row">
+        <div class="col-xs-12 pt-2">
+            <!-- jQuery Knob -->
+            <!-- <div class="box box-solid" style="background-color:rgb(27 44 75);"> -->
+            <div class="box-solid">
+
+                <div class="box-body ">
+                    <div class="row padding-top-xl">
+                        <div class="col-xs-12 col-md-7 text-center">
+
+                            <div class="col-xs-12 col-md-6 text-center">
+                                <h3 class="login_text_text">UMSF</h3>
+                                <h4 class="login_text_text">Filling Machine</h4> 
+                                <input type="text" class="knob dial" value="25" data-skin="tron" data-thickness="0.2" data-width="180" data-height="180" data-fgColor="#bce2fd" data-readonly="true">
+
+                                <div class="knob-label login_text_text">Today's jobs compeleted</div>
+                                <div class="knob-label login_text_text">Updated on 7:25AM</div>
+                            </div>
+
+                            <div class="col-xs-12 col-md-2 text-left login_colom">
+
+                                <h3 class="login_text">11</h3>
+                                <span class="login_text_text">Not started</span><br>
+
+                                <h3 class="login_text">0</h3>
+                                <span class="login_text_text">Stopped</span><br>
+
+                                <h3 class="login_text">0</h3>
+                                <span class="login_text_text">In progress</span><br>
+
+                                <h3 class="login_text">4</h3>
+                                <span class="login_text_text">Completed</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-xs-12 col-md-4 text-center">
+
+                            <h2 class="login_text_text">8:00 AM</h2>
+                            <h4 class="login_text_text text-left">Badge ID</h4>
+
+                            <input type="text" class="form-control login_inputfield">
+                            <br>
+
+
+
+                        </div>
+
+                    </div>
+                    <!-- /.row -->
+                    <!-- /.row -->
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+</section>
+<!-- /.content -->
+
+<div class="bottom_display text-center">
+    <a asp-area="" asp-controller="Home" class="mybutton" asp-action="Alljobs">
+        <i class="fa fa-key" aria-hidden="true"></i>
+    </a><br> 
+    <h4 class="login_text_text">Sign In</h4>
+</div>

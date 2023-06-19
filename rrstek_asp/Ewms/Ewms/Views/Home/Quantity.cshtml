@@ -1,0 +1,164 @@
+﻿@{
+    ViewData["Title"] = "Quantity";
+}
+
+
+
+<div class="row paddingtop">
+
+    <div class="text-left " style="padding-left:2rem;">
+        <h2 class="text-white">AMAS00031 . Filling . Primary . 10 . Process</h2>
+    </div>
+
+    <!-- left slider -->
+    <div class="col-md-2" style="background-color:#2e3e57">
+
+        <div class="box-header">
+            <div class="box-body ">
+
+
+                <div class="text-center padding-bottom">
+
+                    <h4 class="text-white" style="border-left:4px solid #34a0e0;">Good Quantity<span class="text-white">(50)</span></h4>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="col-md-6" style=" border-radius: 0rem; background-color: #2e3958;">
+        <div class="col-md-4"></div>
+        <div class="col-md-6">
+            <br>
+            <input type="text" class="input-field inputfield_calculator text-white" id="display" value="0" readonly>
+            <div class="keypad">
+                <div class="key" ontouchstart="press('1')" onclick="press('1')">1</div>
+                <div class="key" ontouchstart="press('2')" onclick="press('2')">2</div>
+                <div class="key" ontouchstart="press('3')" onclick="press('3')">3</div>
+                <div class="key" ontouchstart="press('4')" onclick="press('4')">4</div>
+                <div class="key" ontouchstart="press('5')" onclick="press('5')">5</div>
+                <div class="key" ontouchstart="press('6')" onclick="press('6')">6</div>
+                <div class="key" ontouchstart="press('7')" onclick="press('7')">7</div>
+                <div class="key" ontouchstart="press('8')" onclick="press('8')">8</div>
+                <div class="key" ontouchstart="press('9')" onclick="press('9')">9</div>
+                <div class="key" ontouchstart="press('0')" onclick="press('0')" style="grid-column: span 3;">0</div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+
+    </div>
+
+    <!-- right slider -->
+    <div class="col-md-4" style=" ">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="col-md-4">
+                    <input type="text" class="knob dial" data-thickness="0.2" value="26" data-width="80" data-height="80" data-fgColor="#bce2fd" data-bgColor="black" data-readonly="true">
+                </div>
+
+                <div class="col-md-4 ">
+
+                    <!-- <p>Job Type</p> -->
+                    <span class="login_text_text">Start</span><br>
+                    <span class="login_text">0.00</span>
+                    <br><br>
+
+                    <span class="login_text_text">Scrapped</span><br>
+                    <span class="login_text">0.00</span>
+                </div>
+
+
+                <div class="col-md-4 ">
+
+                    <!-- <p>Job Type</p> -->
+                    <span class="login_text_text">Complete</span><br>
+                    <span class="login_text">0.00</span>
+                    <br><br>
+
+                    <span class="login_text_text">Previous</span><br>
+                    <span class="login_text">0.00</span>
+                </div>
+            </div>
+
+
+        </div><br>
+
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <span class="login_text_text">Product</span><br>
+                <span class="login_text">00B3203 Orange Juice 1 ltr</span><br><br>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <span class="login_text_text">From</span><br>
+                <span class="login_text">4/3/2023 8:40 PM</span><br><br>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <span class="login_text_text">To</span><br>
+                <span class="login_text">11/5/2023 9:33 PM</span><br><br>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-white">Change Job Status To</h3>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <input class="radio_button" type="radio" id="progress" checked name="radio_button" value="1"><br>
+                <label class="login_text_text" for="progress">In Progress</label><br>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <input class="radio_button" type="radio" id="stop" name="radio_button" value="2"><br>
+                <label class="login_text_text" for="stop">Stopped</label><br>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <input class="radio_button" type="radio" id="complete" name="radio_button" value="3"><br>
+                <label class="login_text_text" for="complete">Complete</label>
+            </div>
+
+
+
+        </div><br>
+
+
+        <div class="row">
+
+            <div class="col-md-6 text-center">
+
+                <a asp-area="" asp-controller="Home" asp-action="Alljobs" class="mybutton">
+                    <i class="fa fa-close" aria-hidden="true"></i>
+                </a><br>
+                <h4 class="login_text_text">Cancel</h4>
+
+            </div>
+
+            <div class="col-md-6 text-center">
+
+                <a asp-area="" asp-controller="Home" asp-action="Activejobs" class="mybutton">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </a><br>
+                <h4 class="login_text_text">Report Scrap</h4>
+            </div>
+        </div>
+
+
+    </div>

@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{48BB1C9A-540F-4D55-A18A-AD33476BF500}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Ewms PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ewms/Views/Home/Startjob.cshtml">
+    <Files>
+      <File FileName="Ewms/Views/Shared/_Layout.cshtml" />
+      <File FileName="Ewms/Controllers/HomeController.cs" />
+      <File FileName="Ewms/Views/Home/Index.cshtml" />
+      <File FileName="Ewms/Views/Home/Alljobs.cshtml" />
+      <File FileName="Ewms/Views/Home/Quantity.cshtml" />
+      <File FileName="Ewms/Views/Home/Startjob.cshtml" Line="54" Column="1" />
+      <File FileName="Ewms/Views/Home/Activejobs.cshtml" />
+      <File FileName="Ewms/Views/Home/Machine.cshtml" />
+      <File FileName="Ewms/Views/Home/Myjobs.cshtml" />
+      <File FileName="Ewms/Views/Home/Requests.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ewms" expanded="True">
+            <Node name="Ewms" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="dist" expanded="True">
+                  <Node name="css" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
