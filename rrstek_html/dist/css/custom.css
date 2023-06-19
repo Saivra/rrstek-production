@@ -79,6 +79,14 @@
   color:white; 
   border-radius: 2rem;
  }
+
+
+ .settingicon:focus{
+  background: #0e273e;
+  height: 40px!important;
+  color:white; 
+  border-radius: 2rem;
+ }
  
 
  .radio_button{
